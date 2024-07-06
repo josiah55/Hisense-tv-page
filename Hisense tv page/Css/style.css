@@ -1,0 +1,254 @@
+body {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/hisense.jpg");
+    background-position: center;
+    background-size: 58%;
+    height: 160vh;
+    background-repeat: no-repeat;
+    font-family: poppins;
+}
+
+
+
+/* Header styles */ 
+.header {
+    margin-right: 5px;
+    margin-bottom: 50px;
+    padding: 2rem;    
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: 550;
+    margin-left: 5px;
+    color:rgb(9, 125, 125);
+    margin-bottom: 5px;
+}
+
+.header h3 {
+    margin-left: 25px;
+    line-height: 0.5px;   
+}
+
+
+.header span {
+    color: rgb(136, 61, 136);
+}
+
+
+.header h3 {
+    font-weight: 300;
+}
+
+
+.header h3, span {
+    margin-bottom: 2rem;
+}
+
+
+/* Navigation styles */   
+nav {
+    color: #000;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    margin: 5px;
+    background-color: #000;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+
+  nav ul li a {
+    padding: 10px 15px;
+    margin: 2px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    transition: 0.3s ease;
+  }
+  
+
+  nav ul li a:hover {
+    color: rgb(9, 125, 125);
+    text-decoration: underline;
+    transition: 0.5s ease-in;
+  }
+
+
+/* button classes */
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn button {
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 2rem;
+    font-weight: 600;
+    color:#fff;
+    background-color: rgb(25, 25, 19);
+}
+
+
+.btn button:hover {
+    color: #970e0e;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+
+  /* text styles */ 
+.text {
+    margin-left: 20px;  
+}
+
+
+.text h1 {
+    margin-left: 20px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+
+.text h2 {
+    margin-left: 25px;
+    line-height: 0.5px;
+    font-weight: 300;
+}
+
+
+.my-div {
+    margin-left: 37px;
+    line-height: 1.5;
+    padding: 5px;
+    
+}
+
+
+.div {
+    display:inline-flex;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+
+.div i {
+    font-size: 120px;
+    line-height: 0.8;
+}
+
+.div p {
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+
+.images {
+    display: flex;
+    flex-direction: row;
+    width: 45px;
+    height: 30px;
+}
+
+
+.images img {
+    padding-left: 40px;
+    width: 3rem;
+    height: 3rem;
+}
+
+
+.images p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(96, 96, 181);
+}
+
+
+
+
+
+/* Media query for smaller devices */   
+@media screen and (max-width: 768px) {
+    body {
+        background-size: 55%;
+        background-position: right;
+        height: 120vh;
+        padding:2px;
+        margin: 2px;
+        font-size: 10px;
+    }
+
+
+    nav ul li a {
+        padding: 10px 10px;
+        margin: 10px;
+        font-weight: 300;
+        font-size: 11px;
+    }
+
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header h3 {
+        font-size: 1rem;
+        margin-left: 15px;
+    }
+
+    .header span {
+        margin-left: 5px;
+    }
+
+
+    .text h1 {
+        font-size: 2rem;
+        margin-left: 15px;  
+    }
+
+    .text h2 {
+        margin-left: 15px;
+    }
+
+    .my-div {
+        margin-left: 35px;
+    }
+
+    .div {
+        margin-left: 15px;
+    }
+
+    .images img {
+        padding-left: 0;
+        margin-left: 45px;
+    }
+
+    .images p {
+        text-align: center;
+    }
+
+    .btn button {
+        font-size: 0.8rem;
+    }
+}
